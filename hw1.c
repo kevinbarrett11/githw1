@@ -7,7 +7,7 @@ return;}
 
 static int the_code[3] = {1,2,3};
 
-static int that_you_need(){static int to_compile =4; //have to_compile return to make sure it returns before you_need
+static int that_you_needed(){static int to_compile =4; //have to_compile return to make sure it returns before you_need
     return to_compile;
 }
 
